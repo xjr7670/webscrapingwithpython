@@ -15,7 +15,7 @@ def sendMail(subject, body):
 
     s = smtplib.SMTP()
     s.connect('smtp.sina.com')
-    s.login('xjr7670@sina.com', 'x45668668')
+    s.login('xjr7670@sina.com', '')
     s.send_message(msg)
     s.quit()
 

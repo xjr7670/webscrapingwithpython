@@ -10,6 +10,6 @@ msg['From'] = 'xjr7670@sina.com'
 msg['To'] = 'xjr30226@126.com'
 
 s = smtplib.SMTP('smtp.sina.com')
-s.login('xjr7670@sina.com', 'x45668668')
+s.login('xjr7670@sina.com', '')
 s.send_message(msg)
 s.quit()
