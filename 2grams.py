@@ -2,6 +2,7 @@
 
 import re
 import string
+from collections import OrderedDict
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
 
@@ -31,5 +32,6 @@ html = urlopen("http://en.wikipedia.org/wiki/Python_(programming_language)")
 bsObj = BeautifulSoup(html, 'lxml')
 content = bsObj.find("div", {"id": "mw-content-text"}).get_text()
 ngrams = ngrams(content, 2)
+ngrams = OrderedDict(sorted(ngrams.items(), key=lambda t: t[1], reverse=True))
 print(ngrams)
 print("2-grams count is: " + str(len(ngrams)))
