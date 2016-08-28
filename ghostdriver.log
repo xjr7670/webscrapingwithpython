@@ -1,0 +1,18 @@
+[INFO  - 2016-08-28T01:51:23.624Z] GhostDriver - Main - running on port 52469
+[INFO  - 2016-08-28T01:51:24.488Z] Session [ed2a2930-6cc1-11e6-82d5-63cbe4f9c840] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-08-28T01:51:24.488Z] Session [ed2a2930-6cc1-11e6-82d5-63cbe4f9c840] - page.customHeaders:  - {}
+[INFO  - 2016-08-28T01:51:24.488Z] Session [ed2a2930-6cc1-11e6-82d5-63cbe4f9c840] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-08-28T01:51:24.488Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: ed2a2930-6cc1-11e6-82d5-63cbe4f9c840
+[ERROR - 2016-08-28T01:51:50.526Z] Session [ed2a2930-6cc1-11e6-82d5-63cbe4f9c840] - page.onError - msg: ReferenceError: Can't find variable: ue
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-08-28T01:51:50.526Z] Session [ed2a2930-6cc1-11e6-82d5-63cbe4f9c840] - page.onError - stack:
+  (anonymous function) (https://www.amazon.com/War-Peace-Leo-Nikolayevich-Tolstoy/dp/1427030200:9991)
+  q (https://www.amazon.com/War-Peace-Leo-Nikolayevich-Tolstoy/dp/1427030200:282)
+  (anonymous function) (https://www.amazon.com/War-Peace-Leo-Nikolayevich-Tolstoy/dp/1427030200:284)
+  L (https://www.amazon.com/War-Peace-Leo-Nikolayevich-Tolstoy/dp/1427030200:286)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-08-28T01:51:59.426Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1472349119403
+
+  phantomjs://platform/console++.js:263 in error
